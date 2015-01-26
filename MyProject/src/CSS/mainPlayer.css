@@ -1,0 +1,147 @@
+root { 
+    display: block;
+}
+
+.root {
+     -fx-background-image: url("/Images/background2.jpg");
+     -fx-background-repeat: no-repeat;
+     -fx-background-size:stretch;
+}
+
+.slider .track
+{
+    -fx-background-color:null;  /* Hide the track */
+ /*   -fx-background-insets: 1 0 -1 0, 0, 1; */
+    -fx-background-radius: 2.5, 2.5, 1.5;
+    -fx-padding: 0.208333em; /* 2.5 */
+}
+
+.progress
+{
+    -fx-accent: #660066;
+}
+.progress .bar
+{
+    -fx-background-insets: 0;
+    -fx-padding: 2px;
+}
+
+#mediaPlay
+{
+    -fx-text-fill: #fff;  
+    -fx-background-color: #660066;
+    -fx-background-radius: 30px;
+    -fx-font-weight: bold;
+    -fx-font-size:30px;
+    -fx-effect: innershadow( two-pass-box, black, 10,0.1,0,2);
+}
+
+#mediaPlay:hover
+{
+ -fx-effect: innershadow( two-pass-box, #fff, 10,0.1,0,2);
+}
+
+#mediaNext
+{
+    -fx-text-fill: #fff;  
+    -fx-background-color: #660066;
+    -fx-background-radius: 20px;
+    -fx-font-weight: bold;
+    -fx-font-size:20px;
+    -fx-effect: innershadow( two-pass-box, black, 10,0.1,0,2);
+}
+
+#mediaNext:hover
+{
+ -fx-effect: innershadow( two-pass-box, #fff, 10,0.1,0,2);
+}
+
+#metadata
+{
+   -fx-font-size: 18px;
+   -fx-text-fill: #660066;
+   -fx-effect: dropshadow( three-pass-box , white , 20, 0.8 , 0 , 2 );
+   -fx-webkit-box-reflect: below 20px;
+}
+
+#audio_list
+{
+    -fx-font-size: 12px;
+    -fx-background-color: #ead2f7;
+    -fx-text-fill: #660066;
+}
+#audio_list:hover
+{
+    -fx-background-color: linear-gradient(#ccccff, #ffffff);
+}
+
+#song_clicked
+{
+    -fx-background-color: linear-gradient(#ffffff, #ccccff);
+}
+
+#user
+{
+    -fx-text-fill: #660066;
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+}
+#user:hover
+{
+    -fx-underline: true;
+}
+
+#profile {
+   -fx-font-size: 50px;
+   -fx-font-family: "Snap ITC";
+   -fx-fill: #660066;
+   -fx-effect: dropshadow( three-pass-box , white , 20, 0.8 , 0 , 2 );
+}
+
+#textfield1{
+    -fx-font-size: 22px;
+    -fx-text-fill: #660066;
+    -fx-prompt-text-fill: #CC99CC;
+}
+
+#profB {
+    -fx-text-fill: white;
+    -fx-font-family: "Verdana";
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-background-color: linear-gradient(#660066, #CC99CC);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+#profB:hover {
+    -fx-background-color: linear-gradient(#CC99CC, #660066);
+}
+
+#profBt
+{
+    -fx-text-fill: white;
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+}
+#profBt:hover
+{
+    -fx-underline: true;
+}
+
+#notice
+{
+    -fx-fill: #cc0000;
+    -fx-font-size:10px;
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+}
+
+#menubar
+{
+    -fx-background-color: #CC99CC;
+    -fx-background-radius: 10px;
+}
+#menubar:hover
+{
+    -fx-background-color: #660066;
+}
